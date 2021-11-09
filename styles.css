@@ -1,0 +1,207 @@
+.nav-main {
+  padding: 10px;
+}
+.brand-logo {
+  width: 40%;
+}
+.brand2 {
+  width: 80%;
+  text-align: right;
+}
+.earth {
+  background-color: #0b2432;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.earth-text {
+  padding-left: 25px;
+}
+.knee {
+  background-image: url(images/jumbotron-knee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.register-now {
+  margin-left: 10px;
+}
+
+.jumbotron2 {
+  text-align: center;
+}
+.my-5 {
+  font-family: Helvetica, sans-serif;
+}
+.aqua {
+  background-color: #0ea3f7;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding-bottom: 0;
+}
+footer {
+  padding-top: 0;
+}
+.form {
+  border: 2px solid rgb(0, 0, 0, 0.5);
+  display: flex;
+  text-align: center;
+}
+.formin {
+  padding: 10px;
+}
+.movable-html {
+  margin-left: 50px;
+}
+.movable-hr {
+  border-top: 5px dotted #0ea3f7;
+}
+.enquiry {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#scrollspyHeading21 {
+  margin-left: 250px;
+}
+.jumbminmax {
+  min-height: 300px;
+}
+.hospital-carousel {
+  text-align: center;
+}
+.hospital-carouselh1 {
+  color: #0ea3f7;
+}
+.doctor-carousel {
+  text-align: center;
+  background-color: gray;
+}
+.hospital-carouselh4 {
+  font-style: italic;
+}
+.carousel-item1 {
+  margin-left: 200px;
+}
+.carousel-item2 {
+  margin-left: 200px;
+}
+.carousel-item3 {
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  .register-now {
+    text-align: center;
+  }
+  .brand-logo {
+    text-align: center;
+    margin-left: auto;
+    width: 80%;
+  }
+  .footer-aafiya {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .brand2 {
+    width: 100%;
+  }
+  .formin {
+    margin: auto;
+  }
+  #scrollspyHeading21 {
+    margin-left: 0px;
+  }
+  .jumbminmax {
+    min-height: 0px;
+  }
+  .movable-html {
+    margin-left: 0px;
+  }
+  .carousel-item1 {
+    margin-left: 100px;
+  }
+  .carousel-item2 {
+    margin-left: 100px;
+  }
+  .carousel-item3 {
+    margin-left: 100px;
+  }
+}
+/* css for loader */
+/* css for loader */
+/* css for loader */
+/* css for loader */
+/* css for loader */
+/* css for loader */
+/* css for loader */
+/* css for loader */
+/* css for loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+#myDiv {
+  display: none;
+}
